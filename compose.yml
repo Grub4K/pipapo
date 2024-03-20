@@ -1,0 +1,7 @@
+version: '3'
+services:
+  pipapo:
+    build:
+      dockerfile: Dockerfile
+      target: runner
+    command: server 12345
